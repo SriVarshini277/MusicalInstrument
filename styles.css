@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background:url('./images/bg2.jpg');
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.drum {
+  background:url('./images/1-Drum.png');
+}
+
+.tabla {
+  background:url('./images/2-Tabla.png');
+}
+
+.piano {
+  background:url('./images/3-keyboard.png');
+}
+
+.saxophone {
+  background:url('./images/4-Saxophone.png');
+}
+
+.trumpet {
+  background:url('./images/5-Trumpet.png');
+}
+
+.guitar{
+  background:url('./images/6-guitar.png');
+}
+
+.eguitar{
+  background:url('./images/7-Eguitar.png');
+}
+
+.c{
+  background-color:#E57163;
+}
+
+.d{
+  background-color:#EBB36A;
+}
+
+.e{
+  background-color:#E6C63E;
+}
+
+.f{
+  background-color:#8BE56B;
+}
+
+.g{
+  background-color:#7BDFEB;
+}
+
+.a{
+  background-color:#35B3E6;
+}
+
+.b{
+  background-color:#AEA2E5;
+}
+
+.C{
+  background-color:#E6A1DD;
+}
+
+.set {
+  margin-top: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.instrument{
+  outline: none;
+  border: 10px solid #404B69;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color:white;
+}
+.key{
+  outline: none;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  width: 100px;
+  height: 150px;
+  text-align: center;
+}
+.instruction1{
+  color:white;
+  visibility:visible;
+  font-size: 2rem;
+}
+.instruction2{
+  color:white;
+  visibility:hidden;
+  font-size: 2rem;
+}
